@@ -13,6 +13,7 @@ export class AppController {
     this.logger.debug('hello world jenkins');
     this.logger.debug('hello world jenkins');
     this.logger.debug('hello world jenkins');
+    this.logger.debug('hello world jenkins');
     return this.appService.getHello();
   }
 }
