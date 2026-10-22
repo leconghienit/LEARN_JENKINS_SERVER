@@ -11,6 +11,7 @@ export class AppController {
     this.logger.debug('hello world minh la le cong hien xin chao nha haha');
     this.logger.debug('hello world jenkins');
     this.logger.debug('hello world jenkins');
+    this.logger.debug('hello world jenkins');
     return this.appService.getHello();
   }
 }
